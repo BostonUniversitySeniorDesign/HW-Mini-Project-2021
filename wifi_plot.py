@@ -14,7 +14,7 @@ from datetime import datetime
 import numpy as np
 import pandas
 import xarray
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt                 #Added to get plots to function.
 from matplotlib.pyplot import show
 
 MAX_SSID = 100
@@ -98,4 +98,4 @@ if __name__ == "__main__":
 
     Nmobile.plot()
     #Nmobile.show()
-    plt.show()
+    plt.show()                                      #Added to get plots to show.
